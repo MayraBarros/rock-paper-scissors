@@ -51,7 +51,7 @@ const determinWinner = () =>{
 
     if(userChoice === 'Piedra'){
         if(computerChoice === 'Papel'){
-            resultadoFinal = 'Computadora Gano'
+            resultadoFinal = 'El ordenador Ganó'
         } else {
             resultadoFinal = 'Muy bien! Ganaste esta batalla!'
         }
@@ -59,7 +59,7 @@ const determinWinner = () =>{
 
     if(userChoice === 'Papel'){
         if(computerChoice === 'Tijera'){
-            resultadoFinal = 'Computadora Ganó :('
+            resultadoFinal = 'El ordenador Ganó :('
         } else {
             resultadoFinal = 'Muy bien! Ganaste esta batalla!'
         }
@@ -67,7 +67,7 @@ const determinWinner = () =>{
 
     if(userChoice === 'Tijera'){
         if(computerChoice === 'Piedra'){
-            resultadoFinal = 'Computadora Ganó :('
+            resultadoFinal = 'El ordenador Ganó :('
         } else {
             resultadoFinal = 'Muy bien! Ganaste esta batalla!'
         }

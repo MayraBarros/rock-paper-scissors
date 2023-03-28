@@ -14,17 +14,21 @@
     align-items: center;
 }
 
+.iconos-juego{
+    cursor: pointer;
+}
+
 .iconos-juego,
 .iconos-maquina{
     width: 70px;
     height: 70px;
     margin: 10px 20px;
-    cursor: pointer;
     padding: 15px;
 }
 
 .opciones-maquina{
     margin-top: 30px;
+    cursor: not-allowed;
 }
 
 .iconos-juego.active{
@@ -36,3 +40,10 @@
     border: 1px solid green;
     border-radius: 10px;
 }
+
+.ordenador-elije,
+.user-elije{
+    text-align: center;
+}
+
+
